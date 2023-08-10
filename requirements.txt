@@ -1,4 +1,5 @@
-erddapy==1.2.1
-matplotlib==3.1.0
-mpld3==0.5.9
-streamlit==1.23.1
+erddapy
+matplotlib
+mpld3
+streamlit
+numpy
