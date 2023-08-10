@@ -6,29 +6,29 @@ import matplotlib.pyplot as plt
 # import xarray
 from erddapy import ERDDAP
 
-"""
-Streamlit prototype
-
-Purpose: Test data visualization with Streamlit for python.
-This script takes the plotting code from erddap_dataacess.ipynb and 
-uses streamlit to create a web app displaying the plot.
-
-To run this app locally in the browser, run the following command in the terminal
-   streamlit run streamlit_mooring_app.py
-
-Installation of streamlit is required. A virtual environment is recommended.
-   pip install streamlit
-
-Next steps:
- -Add more plots
- -Add interactive features
- -Test deployment to the community cloud to create a url link that can be shared publicly
-
-Created by: 
-Veronica Martinez 
-8/9/23 
-Ocean Hack Week project
-"""
+# """
+# Streamlit prototype
+#
+# Purpose: Test data visualization with Streamlit for python.
+# This script takes the plotting code from erddap_dataacess.ipynb and
+# uses streamlit to create a web app displaying the plot.
+#
+# To run this app locally in the browser, run the following command in the terminal
+#    streamlit run streamlit_mooring_app.py
+#
+# Installation of streamlit is required. A virtual environment is recommended.
+#    pip install streamlit
+#
+# Next steps:
+#  -Add more plots
+#  -Add interactive features
+#  -Test deployment to the community cloud to create a url link that can be shared publicly
+#
+# Created by:
+# Veronica Martinez
+# 8/9/23
+# Ocean Hack Week project
+# """
 
 
 def get_erddap_data(erddap_url, dataset, data_protocol="griddap", variables=None, constraints=None):
