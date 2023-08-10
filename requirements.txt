@@ -1,5 +1,4 @@
 erddapy
 matplotlib
-mpld3
+plotly
 streamlit
-numpy
